@@ -1,0 +1,51 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
+
+#block{
+    background-color: rgb(50, 230, 104);
+    width: 25%;
+    height: 50%;
+    margin: 15% auto;
+    padding: 1.5em;
+    border: 1px solid rgb(50, 230, 104);
+    border-radius: 25px;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: aliceblue;
+}
+
+body{
+    background-image: url("images");
+}
+
+    @media screen and (max-width: 980px) {
+        #block{
+            width: 80%;
+            margin: 15% auto;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        #block{
+            width: 80%;
+            margin:  15%auto;
+        }
+    }
+
+
+    @media screen and (max-width: 1280px) {
+        #block{
+            width: 80%;
+            margin: 15% auto;
+        }
+    }
+
+    @media screen and (max-width: 1366px) {
+        #block{
+            width: 80%;
+            margin: 15% auto;
+        }
+    }
