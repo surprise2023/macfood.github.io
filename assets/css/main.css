@@ -3963,3 +3963,13 @@
 			}
 
 		}
+
+		@media screen and (max-width: 498px) {
+
+			.copyright{
+				background-color: white;
+				color: #e5474b;
+				font-weight: bold;
+			}
+	
+		}
